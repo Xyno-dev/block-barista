@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MUG);
                         output.accept(ModItems.COFFEE);
+                        output.accept(ModItems.COFFEE_BEAN);
+                        output.accept(ModItems.ROASTED_COFFEE_BEAN);
                     })
                     .build());
 

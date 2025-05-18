@@ -1,5 +1,8 @@
 {
   "item.blockbarista.mug": "Mug",
   "item.blockbarista.coffee": "Coffee",
+  "item.blockbarista.coffee_bean": "Coffee Bean",
+  "item.blockbarista.roasted_coffee_bean": "Roasted Coffee Bean",
+  "block.blockbarista.coffee_crop": "Coffee Crop",
   "creativetab.blockbarista.block_barista_tab": "Block Barista"
 }

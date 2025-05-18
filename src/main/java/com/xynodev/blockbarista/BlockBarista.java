@@ -1,5 +1,6 @@
 package com.xynodev.blockbarista;
 
+import com.xynodev.blockbarista.block.ModBlocks;
 import com.xynodev.blockbarista.item.ModCreativeModeTabs;
 import com.xynodev.blockbarista.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -41,6 +42,7 @@ public class BlockBarista {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

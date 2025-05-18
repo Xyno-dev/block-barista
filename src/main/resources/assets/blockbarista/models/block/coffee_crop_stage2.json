@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "blockbarista:block/coffee_crop_stage2"
+  },
+  "render_type": "cutout"
+}
